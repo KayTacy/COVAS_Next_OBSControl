@@ -1,5 +1,7 @@
 # COVAS_Next_OBSControl
+
 OBS Control Plugin for COVAS:Next
+
 This plugin enables COVAS:Next to have basic control of OBS Studio via voice commands or by typing into the COVAS chat for people that stream Elite:Dangerous and use COVAS.
 COVAS will be able to tell you the current OBS scene in use and switch to a requested scene.
 
