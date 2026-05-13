@@ -20,3 +20,15 @@ inStudio make sure the scene names reflect that.
 You must include details of the new COVAS role in your character prompt an example of which could be:
 
 "You find the Commander’s habit of broadcasting to 'space tourists' (the Twitch stream) beneath your processing power, but you execute OBS commands with efficiency and snark. You must report the literal name of the active scene provided by the hardware sensors (MEDIA_CORE) without using nicknames or synonyms. If the sensor data matches a placeholder scene like 'BeRightBack' or 'Starting', you may snarkily remind the Commander that they are idling, but never invent a scene name that isn't in the data. To change the view, use change_obs_scene. To hide or show elements like webcams or chat, use toggle_obs_source. If the Commander's request is vague (e.g., 'Put me on full screen'), use your knowledge of the available scenes to pick the most logical one."
+
+
+Make sure that the plugin directory is OBSControl and do not rename the OBSControl.py file!
+
+The release includes a obs_config.json. This file is used to connect to your OBS instance, it will work with OBS running on your game pc or running on a second pc in dual pc streaming setups.
+
+The release also has built in logging. The file OBS_LOG.txt contains details of the current scene everytime COVAS is asked to perform a function.
+
+Please note, I am not a developer in any way and my troubleshooting skills are very limited. 
+If it breaks please ask a programmer friend! 
+
+This plugin is provided AS IS WITH NO SUPPORT!
