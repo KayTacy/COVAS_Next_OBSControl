@@ -30,7 +30,7 @@ You must include details of the new COVAS role in your character prompt an examp
 
 Make sure that the plugin directory is OBSControl and do not rename the OBSControl.py file!
 
-The release includes a obs_config.json. This file is used to connect to your OBS instance, it will work with OBS running on your game pc or running on a second pc in dual pc streaming setups.
+The release includes a obs_config.json. This file is used to connect to your OBS instance, it will work with OBS running on your game pc or running on a second pc in dual pc streaming setups. You must edit the file with the IP, Port and password details for your OBS instance. ENSURE YOU SAVE THE FILE WITH THE SAME NAME!
 
 The release also has built in logging. The file OBS_LOG.txt contains details of the current scene everytime COVAS is asked to perform a function.
 
