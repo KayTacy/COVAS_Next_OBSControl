@@ -7,11 +7,17 @@ This plugin enables COVAS:Next to have basic control of OBS Studio via voice com
 COVAS will be able to tell you the current OBS scene in use and switch to a requested scene.
 
 Example commands would be:
+
 what is the current media source?
+
 what is the current OBS scene?
+
 what is the state of the media hardware?
+
 switch to Chatting
+
 switch to LiveScene
+
 hide (name of camera source such as "webcam")
 
 You must ensure that your scenes in OBS have no spaces, hyphens or underscores and DEFINATELY no similar names such as Chatting and Chatting Tarot if you have different scene setups for different chats i.e IRL and 
