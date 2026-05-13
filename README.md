@@ -18,7 +18,7 @@ switch to Chatting
 
 switch to LiveScene
 
-hide (name of camera source such as "webcam")
+hide (name of source such as "webcam")
 
 You must ensure that your scenes in OBS have no spaces, hyphens or underscores and DEFINATELY no similar names such as Chatting and Chatting Tarot if you have different scene setups for different chats i.e IRL and 
 inStudio make sure the scene names reflect that.
